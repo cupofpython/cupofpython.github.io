@@ -27,7 +27,7 @@ body {
 
 .box {
 	background-color: white;
-	position: absolute;
+	position: relative;
 	left: 500px;
 	top: 50px; 
 	height: 550px;
