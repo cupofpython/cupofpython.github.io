@@ -2,9 +2,15 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-.img {
-  opacity: 70;
+
+div {
   position: fixed;
+}
+
+img {
+  opacity: 70;
+  float: left;
+  margin-right: 15px;  
 }
 
 @keyframes fade {
@@ -17,16 +23,9 @@ body {
 	to {opacity: 0;}
 }
 
-.content h1{
+h1{
 	color: #999; 
 	font-family: Elephant; 
-	position:absolute;
-    width:300px;
-    height:100px;
-    bottom:10px;
-    right:25%;
-    left:50%;
-    margin-left:-150px;
 	opacity: 1;
 	
 }
