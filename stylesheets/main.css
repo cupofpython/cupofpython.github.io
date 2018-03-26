@@ -3,13 +3,11 @@ body {
     width: 70%;
 }
 
-
 img {
   opacity: .5;
   float: left;
   margin-right: 15px;  
 }
-
 
 nav ul{
     font-family:'Elephant', 'Helvetica';
@@ -18,10 +16,12 @@ nav ul{
     font-weight: bold;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -32,14 +32,13 @@ a {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
-
 }
+
 .content p {
     font-family: 'Elephant','Helvetica';
     font-size: 1.2em;
     line-height: 1.4em;
+    opacity: 0.9;
     color: #333;
- 
-    
 }
 
