@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script> 
+			$(document).ready(function() {
+				$("#p1Content").hide(); 
+				$("#p2Content").hide();
+
+    			$("#p1Nav").click(function(){
+        		$("#p1Content").slideToggle("slow");
+        		});
+    			$("#p2Nav").click(function(){
+        		$("#p2Content").slideToggle("slow");
+    		});
+		});
+	</script>
 	<title>Aspiring Technical Communicator | Computer Science Student</title>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/projects.css">
 	<link rel="icon" href="../images/favicon.jpg">
-	</head>
 </head>
 <body>
 		<nav>
@@ -13,8 +26,29 @@
         		<li><a href="/projects">Projects</a></li>
 				<li><a href="/contact">Contact</a></li>
     		</ul>
-
 		</nav>
-		
+
+		<div id="p1Nav">
+			<div class="title">
+				<h1>Sarah Holland Portfolio Design</h1>
+			</div>
+		</div>
+		<div id="p1Content">
+			<div class="content">
+				<p>Hello world!</p>
+			</div>
+		</div>
+
+		<div id="p2Nav">
+			<div class="title">
+				<h1>Sam & Son Reality Business Card Design</h1>
+			</div>
+		</div>
+		<div id="p2Content">
+			<div class="content">
+				<p>Hello world!</p>
+			</div>
+		</div>
+
 </body>
 </html>
