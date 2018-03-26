@@ -4,8 +4,6 @@ body {
 }
 
 
-
-
 img {
   opacity: .5;
   float: left;
@@ -38,7 +36,7 @@ a {
 }
 .content p {
     font-family: 'Elephant','Helvetica';
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
  
