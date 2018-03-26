@@ -4,9 +4,7 @@ body {
 }
 
 img {
-  opacity: .5;
-  float: left;
-  margin-right: 15px;  
+  text-align: center;
 }
 
 nav ul{
