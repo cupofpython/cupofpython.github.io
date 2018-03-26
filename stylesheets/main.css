@@ -3,9 +3,8 @@ body {
     width: 70%;
 }
 
-div {
-  position: fixed;
-}
+
+
 
 img {
   opacity: .5;
@@ -13,48 +12,6 @@ img {
   margin-right: 15px;  
 }
 
-@keyframes fade {
-	from{opacity: 0;}
-	to {opacity: 1;}
-}
-
-@keyframes fade-out {
-	from{opacity: 1;}
-	to {opacity: 0;}
-}
-
-h1{
-	color: #999; 
-	font-family: Elephant; 
-	opacity: 1;
-	
-}
-
-.dot1 {
-	animation-name: fade; 
-	animation-duration: 2s; 
-}
-
-.dot2 {
-	opacity: 0; 
-	animation-name: fade; 
-	animation-duration: 4s; 
-	animation-name: fade-out; 
-	animation-duration: 10s; 
-}
-
-.dot3 {
-	opacity: 0; 
-	animation-name: fade; 
-	animation-duration: 6s; 
-	animation-name: fade-out; 
-	animation-duration: 8s; 
-}
-
-.social {
-	margin: 0 auto;
-	width: 280px;
-}
 
 nav ul{
     font-family:'Elephant', 'Helvetica';
@@ -72,13 +29,19 @@ a {
     color: #999;
 }
 
-h1 {
+.title h1 {
+    color: #999;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
+
 }
-p {
+.content p {
+    font-family: 'Elephant','Helvetica';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+ 
+    
 }
 
